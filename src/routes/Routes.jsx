@@ -1,6 +1,6 @@
 import React from "react";
-import { Route, Routes, NavLink } from "react-router-dom";
-import Home from "../pages/Home";
+import { Route, Routes } from "react-router-dom";
+import Home from "../pages/home/Home";
 import About from "../pages/About";
 import Projects from "../pages/Projects";
 import Contact from "../pages/Contact";

@@ -10,7 +10,7 @@ export default {
         accent: "#EEEEEE",
       },
       animation: {
-        typing: "typing 2.4s steps(27), blink 1.06s infinite",
+        typing: "typing 2.8s steps(27), blink 1.25s step-end infinite 2.8s",
       },
       keyframes: {
         typing: {
@@ -22,10 +22,7 @@ export default {
             "border-right-color": "transparent",
           },
           "50%": {
-            "border-right-color": "#EEEEEE",
-          },
-          "100%": {
-            "border-right-color": "transparent",
+            "border-right-color": "white",
           },
         },
       },

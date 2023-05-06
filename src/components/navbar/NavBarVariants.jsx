@@ -26,7 +26,6 @@ export const menuListVariant = {
   initial: { y: "-100vh" },
   animate: {
     y: 0,
-    staggerChildren: 0.2,
     transition: {
       duration: 1.2,
       ease: [0, 0.5, 0.2, 1],

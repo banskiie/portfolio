@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
-import profPic from "../assets/images/pfp.jpg";
+import profPic from "../../assets/images/pfp.jpg";
 import { motion } from "framer-motion";
-import { AnimationContext } from "../context/animcontext";
+import { AnimationContext } from "../../context/animcontext";
 
 function Home() {
   const [showIntroPar, setShowIntroPar] = useState(false);
@@ -12,7 +12,7 @@ function Home() {
     const showTimer = setTimeout(() => {
       setShowIntroPar(true);
     }, timeoutDelay);
-    
+
     return () => {
       clearTimeout(showTimer);
     };
@@ -37,7 +37,7 @@ function Home() {
       </div>
       <section className="flex justify-center">
         {showIntroPar && (
-          <p className="overflow-hidden whitespace-nowrap text-4xl border-r-2 font-light animate-typing">
+          <p className="overflow-hidden whitespace-nowrap text-5xl border-r-4 border-white animate-typing">
             Hi! I'm Shand Ivan Sinohon.
           </p>
         )}
